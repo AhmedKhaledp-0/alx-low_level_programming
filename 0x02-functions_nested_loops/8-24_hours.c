@@ -1,6 +1,7 @@
 #include "main.h"
 /*
  * jack_bauer - function that prints every minute of the day
+ * Description: '0x02. C - Functions, nested loops'
  * h = hour, m = minutes
  * / 10 allows second digit to rotate
  * for loop breaks before passing 24:00
