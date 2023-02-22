@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_sign - Entry point
- * @c: single letter input
+ * @n: numberinput
  * Description: '0x02. C - Functions, nested loops'
  * Return:+ or - or 0
  */
