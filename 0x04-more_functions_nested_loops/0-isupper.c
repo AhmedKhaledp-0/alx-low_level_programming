@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * _isupper(int c) - check uppercase
- * Return : 1 if uppercase 0 if otherwice
+ * _isupper - check uppercase
+ * @c: char input
+ * Return: If uppercase 1& 0 if otherwice
  */
 int _isupper(int c)
 {
@@ -15,4 +16,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-}	
+}
