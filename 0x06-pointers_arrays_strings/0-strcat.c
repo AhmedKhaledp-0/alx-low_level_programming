@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * char *_strcat - main function
+ * _strcat - main function
  * @*dest: first pointer
  * @*src: second pointer
  * RETURN: dest_star
