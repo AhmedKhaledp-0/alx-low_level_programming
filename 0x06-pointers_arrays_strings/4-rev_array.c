@@ -2,8 +2,8 @@
 
 /**
  * reverse_array - main function
- * @a: int 
- * @b: int 
+ * @a: int
+ * @n: int
  * Return: always 0
  */
 void reverse_array(int *a, int n)
