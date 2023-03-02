@@ -2,9 +2,9 @@
 
 /**
  * _strcat - main function
- * @*dest: first pointer
- * @*src: second pointer
- * RETURN: dest_star
+ * @dest: first pointer
+ * @src: second pointer
+ * Return:dest_star
  */
 char *_strcat(char *dest, char *src)
 {
