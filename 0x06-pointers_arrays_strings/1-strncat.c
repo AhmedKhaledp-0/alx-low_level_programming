@@ -3,8 +3,9 @@
 /**
  * _strncat - main function
  * @dest: first
- * @sec: second
+ * @src: second
  * @n: int
+ * Return:dest_start
  */
 char *_strncat(char *dest, char *src, int n)
 {
