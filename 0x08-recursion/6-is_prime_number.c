@@ -19,7 +19,7 @@ int is_prime_helper(int n, int i)
 	{
 		return (0);
 	}
-	return (is_prime_helper(n, i + i1));
+	return (is_prime_helper(n, i + 1));
 }
 /**
  * is_prime_number - returns 1 if the input integer is a prime number
