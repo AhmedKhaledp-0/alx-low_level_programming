@@ -27,7 +27,6 @@ int i, j, k, len;
 
 	if (str == NULL)
 		return (NULL);
-
 	k = 0;
 
 	for (i = 0; i < ac; i++)
@@ -40,6 +39,5 @@ int i, j, k, len;
 		str[k] = '\n';
 		k++;
 	}
-	
 	return (str);
 }
