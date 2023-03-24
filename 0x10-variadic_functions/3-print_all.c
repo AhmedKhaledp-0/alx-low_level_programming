@@ -21,17 +21,17 @@ void print_all(const char * const format, ...)
 				printf("%c", va_arg(args, int));
 				if (format[i + 1] != '\0')
 					printf(", ");
-					break;
+				break;
 			case 'i':
 				printf("%d", va_arg(args, int));
 				if (format[i + 1] != '\0')
 					printf(", ");
-					break;
+				break;
 			case 'f':
 				printf("%f", va_arg(args, double));
 				if (format[i + 1] != '\0')
 					printf(", ");
-					break;
+				break;
 			case 's':
 				str = va_arg(args, char *);
 				if (str == NULL)
