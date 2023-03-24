@@ -20,18 +20,18 @@ void print_all(const char * const format, ...)
 			case 'c':
 				printf("%c", va_arg(args, int));
 				if (format[i + 1] != '\0')
-				printf(", ");
-				break;
+					printf(", ");
+					break;
 			case 'i':
 				printf("%d", va_arg(args, int));
 				if (format[i + 1] != '\0')
-				printf(", ");
-				break;
+					printf(", ");
+					break;
 			case 'f':
 				printf("%f", va_arg(args, double));
 				if (format[i + 1] != '\0')
-				printf(", ");
-				break;
+					printf(", ");
+					break;
 			case 's':
 				str = va_arg(args, char *);
 				if (str == NULL)
@@ -39,7 +39,7 @@ void print_all(const char * const format, ...)
 				else
 					printf("%s", str);
 				if (format[i + 1] != '\0')
-				printf(", ");
+					printf(", ");
 		}
 		i++;
 	}
